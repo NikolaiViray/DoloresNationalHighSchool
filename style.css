@@ -69,6 +69,7 @@ header {
 
 .DIV_RightBar p {
   margin-left: .3em;
+  margin-top: 5.5%;
 }
 
 .P_TitleOptions{
@@ -110,7 +111,7 @@ header {
   /* Position */
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: -10%;
+  margin-top: -30%;
 
   z-index: 3;
 
