@@ -10,8 +10,6 @@ body {
     /* Position */
     margin: 0px;
     /* Size */
-
-    
     /* Children intervensions */
     display: flex;
     flex-direction: column;
@@ -124,7 +122,77 @@ header {
 }
 
 main {
-  background-color: crimson;
+  /* Appearance */
+  /* Position */
+  /* Size */ 
+  height: 100vh;
+  /* Children intervensions */
+  display: flex;
+  flex-direction: column;
+}
+
+.DIV_ParentOfClubsAndOrgs {
+  /* Appearance */
+  /* Position */
+  /* Size */ 
+  width: 100%;
+  height: 1500%;
+  /* Children intervensions */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.DIV_ClubsAndOrgs {
+  /* Appearance */
+  background-color: rgba(255, 222, 89, 1);
+
+  border-radius: 5%;
+  /* Position */
+  margin-top: 5%;
+  /* Size */ 
+  width: 50%;
+  height: 30%;
+
+
+  /* Children intervensions */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 3%;
+}
+
+.DIV_ClubsAndOrgsTitle {
+  /* Appearance */
+  background-color: rgba(255, 248, 221, 1);
+  border-radius: 10%;
+  /* Position */
+  margin-bottom: -8%;
+  margin-top: 2%;
+
+  z-index: 2;
+  /* Size */
+  height: 10%;
+  /* Children intervensions */
+  padding: 5%;
+}
+
+.DIV_Content {
+   /* Appearance */
+   background-color: rgba(255, 189, 89, 1);
+   border-radius: 5%;
+   /* Position */
+   /* Size */ 
+   height: 65%;
+   /* Children intervensions */
 }
 
 footer {
