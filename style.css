@@ -1,0 +1,98 @@
+body {
+    /* Appearance */
+    background-color: bisque;
+    /* Position */
+    margin: 0px;
+    /* Size */
+
+    
+    /* Children intervensions */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+  /* Appearance */
+
+  /* Position */
+
+  /* Size */
+  height: 50%;
+  /* Children intervensions */
+  display: flex;
+  flex-direction: column;
+}
+
+.SPAN_LeftBar {
+  /* Appearance */
+
+
+  /* Position */
+  flex: 3;
+  /* Size */
+
+  /* Children intervensions */
+  display: flex;
+  flex-direction: row;
+}
+
+.DIV_RightBar {
+  /* Appearance */
+
+
+  /* Position */
+  flex: 1;
+  /* Size */
+
+  /* Children intervensions */
+  display: flex;
+  flex-direction: row;
+}
+
+.P_TitleOptions{
+  font-size: 230%;
+}
+
+.DIV_TitleBar {
+  /* Appearance */
+
+  background-color: rgba(255, 222, 89, .7);
+
+  /* Position */
+  z-index: 2;
+  /* Size */
+  width: 100%;
+  height: 10%;
+
+  /* Children intervensions */
+  display: flex;
+  flex-direction: row;
+}
+
+.DIV_Main img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  object-position: 100% 15%;
+}
+
+.DIV_Main {
+  height: 70%;
+}
+
+.DIV_Description {
+  background-color: rgba(255, 222, 89, 0.5);
+}
+
+main {
+  background-color: crimson;
+}
+
+footer {
+  background-color: black;
+}
+
+.DIV {
+  background-color: black;
+}
+
