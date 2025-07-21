@@ -756,5 +756,378 @@
 /* Laptop L */
 
 @media (min-width: 1024px) {
+  body {
+    /* Appearance */
+    background-color: bisque;
+    /* Position */
+    margin: 0px;
+    /* Size */
+    /* Children intervensions */
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    /* Appearance */
+
+    /* Position */
+
+    /* Size */
+    height: 90%;
+    width: 100%;
+    /* Children intervensions */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SPAN_LeftBar {
+    /* Appearance */
+
+
+    /* Position */
+    flex: 3;
+
+    margin-left: -.1%;
+    margin-right: 0;
+    margin-top: 1%;
+    /* Size */
+
+    /* Children intervensions */
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 1%;
+  }
+
+  .H2_Title {
+    /* Appearance */
+    font-size: 150%;
+    /* Position */
+    margin-left: 3%;
+    margin-top: .5%;
+    /* Size */ 
+    /* Children intervensions */
+  }
+
+  .DIV_RightBar {
+    /* Appearance */
+
+
+    /* Position */
+    flex: 1;
+    margin-right: 2%;
+    margin-top: 1%;
+    /* Size */
+
+    /* Children intervensions */
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .DIV_RightBar p {
+    margin-left: 1em;
+    margin-top: 6%;
+
+    font-size: 1.5em;
+  }
+
+  .DIV_TitleBar {
+    /* Appearance */
+
+    background-color: rgba(255, 222, 89, .7);
+
+    /* Position */
+    z-index: 2;
+    /* Size */
+    width: 100%;
+    height: 10%;
+
+    /* Children intervensions */
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+    
+  }
+
+  .DIV_Main img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    object-position: 100% 15%;
+  }
+
+  .DIV_Main {
+    height: 70%;
+  }
+
+  .DIV_Description {
+    /* Appearance */
+    background-color: rgba(255, 222, 89, 0.7);
+    border-radius: 5%;
+
+    /* Position */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -10%;
+
+    z-index: 3;
+
+    /* Size */
+    height: 70%;
+    /* Children interventions */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .DIV_Description p {
+    font-size: 3em; 
+  }
+
+  main {
+    /* Appearance */
+    /* Position */
+    /* Size */ 
+    height: 300vh;
+    /* Children intervensions */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .DIV_ParentOfClubsAndOrgs {
+    /* Appearance */
+    /* Position */
+    /* Size */ 
+    width: 100%;
+    height: 50%;
+    /* Children intervensions */
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .DIV_ClubsAndOrgs {
+    /* Appearance */
+    background-color: rgba(255, 222, 89, 1);
+
+    border-radius: 5%;
+    /* Position */
+    margin-top: -40%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    /* Size */ 
+    width: 50%;
+    height: 30%;
+
+
+    /* Children intervensions */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 3%;
+  }
+
+  .DIV_ClubsAndOrgsTitle {
+    /* Appearance */
+    background-color: rgba(255, 248, 221, 1);
+    border-radius: 10%;
+    font-size: 1.5em;
+    /* Position */
+    margin-bottom: -8%;
+    margin-top: 2%;
+
+    z-index: 2;
+    /* Size */
+    height: 10%;
+    /* Children intervensions */
+    padding: 5%;
+  }
+
+  .DIV_ClubsAndOrgsContent {
+    /* Appearance */
+    background-color: rgba(255, 189, 89, 1);
+    border-radius: 5%;
+
+    /* Position */
+    /* Size */ 
+    height: 65%;
+    /* Children intervensions */
+    padding-bottom: 3%;
+    font-size: 1.4em;
+  }
+
+
+  .ParentOfAdditionalContents {
+    /* Appearance */
+    /* Position */
+    margin-top: -50%;
+    /* Size */
+    height: 10%;
+    /* ChildrenInterventions */
+  }
+
+  .ContentLeft {
+    /* Appearance */
+    /* Position */
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* Size */
+    /* ChildrenInterventions */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ContentIMG {
+    /* Appearance */
+    /* Position */
+    flex: 2;
+    
+    /* Size */
+    width: 40%;
+    height: auto;
+    /* ChildrenInterventions */
+  }
+
+  .IMG_Content {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: 53% 15%;
+
+    border-radius: 10%;
+  }
+
+  .ContentText {
+    /* Appearance */
+    background-color: rgb(255, 222, 89);
+    border-radius: 10%;
+    /* Position */
+    flex: 3;
+    
+    z-index: -1;
+
+    margin-left: -10%;
+    margin-top: 5%;
+    /* Size */
+    /* ChildrenInterventions */
+  }
+
+  .H2_Content {
+    margin-left: 15%;
+    font-size: 3em;
+  }
+
+  .p_Content {
+    margin-left: 16%;
+    margin-top: -3%;
+
+    font-size: 2em;
+  }
+
+  .ContentRight {
+    /* Appearance */
+    /* Position */
+    margin-top: 5%;
+
+    /* Size */
+    /* ChildrenInterventions */
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .ContentRight .ContentIMG img {
+    /* Appearance */
+    /* Position */
+    margin-left: -20%;
+    /* Size */
+    width: 115%;
+    /* ChildrenInterventions */
+  }
+
   
+  .ContentRight .ContentText {
+    /* Appearance */
+    /* Position */
+    margin-left: 3%;
+
+    /* Size */
+    /* ChildrenInterventions */
+    text-align: end;
+  }
+
+  .ContentRight .ContentText h2 {
+    margin-right: 14%;
+  }
+  .ContentRight .ContentText p {
+    margin-right: 14%;
+  }
+
+
+  .DIV_EndContentMain {
+    margin-top: 10%;
+    /* Appearance */
+    /* Position */
+
+
+    /* Size */
+    height: 200%;
+    /* ChildrenInterventions */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .EndContent {
+    /* Appearance */
+    border-radius: 10%;
+    background-color: rgb(255, 222, 89);
+    font-size: 1.5em;
+    /* Position */
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 15%;
+
+    /* Size */
+    width: 50%;
+    /* ChildrenInterventions */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 5%;
+  }
+
+  .IMG_EndContent1 {
+    /* Appearance */
+    border-radius: 10%;
+    /* Position */
+
+
+    /* Size */
+    width: 85%;
+    /* ChildrenInterventions */
+  }
+
+
+
+  footer {
+    background-color: black;
+  }
+
+  .DIV {
+    background-color: black;
+  }
 }
